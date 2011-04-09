@@ -1,0 +1,11 @@
+RELEASE HISTORY
+
+- 1.1 on 2004-06-07
+	- Changed the interpreter state to use mutable unboxed arrays (Data.Array.IO) 
+	  instead of the pure functional Haskell 98 arrays (Array module). Data.Array.IO
+	  is part of the GHC hierarchical libraries and is implemented in Hugs too 
+	  (but not in nhc). Performance increased dramatically as a result. 
+
+	  
+- 1.0 on 2004-06-04
+	- Initial release
